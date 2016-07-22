@@ -73,7 +73,7 @@ int main(int argc, char **argv){
     printf("calibrating timer\n");
     ORB_calibrate();
 
-    printf("My TID: %ld running on CPU: %d\n", syscall(SYS_gettid), sched_getcpu());
+    // printf("My TID: %ld running on CPU: %d\n", syscall(SYS_gettid), sched_getcpu());
     // Create the graph object
     g = new Graph::Graph();
     ORB_read(t1);
