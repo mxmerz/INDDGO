@@ -210,7 +210,7 @@ $(error When HAS_SLEPC = 1, you must define the SLEPC_DIR directory variable)
 endif
 endif
 
-ifeq ($(HAS_METIS),1)
+ifeq ($(HAS_PETSC),1)
 ifeq ($(PETSC_DIR), )
 $(error When HAS_PETSC = 1, you must define the PETSC_DIR directory variable)
 endif
