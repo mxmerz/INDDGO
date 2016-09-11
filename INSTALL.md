@@ -101,11 +101,11 @@ SRC_DIR = /home/cgroer/INDDGO
 ...
 HAS_SUITESPARSE = 1
 ...
-HAS_METIS	= 1
+HAS_METIS       = 1
 ...
 SUITESPARSE = /home/cgroer/SuiteSparse
 ...
-METIS_SRC_DIR  = /home/cgroer/metis-5.0.2 
+METIS_SRC_DIR = /home/cgroer/metis-5.0.2
 METIS_LIB_DIR = /home/cgroer/metis-5.0.2/build/Linux-x86_64/libmetis
 ````
 
